@@ -1,0 +1,167 @@
+.center {
+    margin: 0px;
+    padding:0px;
+    float: left;
+    width:100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left:50%;
+}
+
+button {
+    width: 150px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#like {
+    max-width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+i {
+    text-align: center;
+}
+
+.white {
+    height: 79px;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.each {
+    margin: 0px 8px;
+}
+
+.comment_body {
+    background-color: white;
+    padding: 10px;
+}
+
+.comment_trash {
+    width: 50px;
+    
+}
+
+.comment_edit {
+    width: 50px;
+}
+
+.none {
+    display: none;
+}
+
+body {
+    background-image: url('./blue-snow.png');
+}
+
+.post_body {
+    background-color: white;
+    color: black;
+    padding: 30px 15px;
+    margin-top: 30px;
+}
+
+.username {
+    background-color: white;
+    padding: 10px;
+}
+
+.username_container {
+    margin-bottom: 7px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.user-flex {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .user-flex {
+        display: block
+    }
+ }
+
+ .flex-top {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ #like-color {
+     color: white
+ }
+
+ @media only screen and (min-width: 600px) {
+    .user-flex {
+        display: block
+    }
+    .header {
+        margin-left: calc(50% - 50vw);
+        width: 100vw;
+    }
+    .iw {
+        width: 500px;
+        text-align: center;
+    }
+    .ij {
+        margin-left: -50px;
+        width: 275px
+    }
+    .container {
+        width: 1000px; 
+    }
+    li {
+        margin-right: 80px;
+    }
+ }
+
+ @media only screen and (min-width: 900px) {
+    .brand-logo {
+        margin-left: -27px;
+    }
+    .ij {
+        margin-left: -130px;
+        width: 275px
+    }
+    .user {
+        margin-top: 30px;
+    }
+    .brand-logo {
+        margin-right: 40px;
+    }
+    .card {
+        border-radius: 5%;
+    }
+ }
+
+ @media only screen and (max-width: 230px) {
+    .btn {
+        width: 50%;
+    }
+    .i { 
+        padding-left: 5px;
+        width: 60%;
+    }
+    .j {
+        padding-left: 4px;
+        width: 65%;
+    }
+ }
+
+ @media only screen and (max-width: 1100px) {
+    li {
+        margin-right: 20px;
+    }
+ }
